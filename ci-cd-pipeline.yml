@@ -49,6 +49,4 @@ jobs:
         # Replace with actual deployment commands
         ssh user@server 'bash deploy-script.sh'
 
-        env:
-  API_KEY: ${{ secrets.API_KEY }}
-
+        
